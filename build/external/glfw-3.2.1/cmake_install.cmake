@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1
+# Install script for directory: /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/glfw-3.2.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/build/external/glfw-3.2.1/src/cmake_install.cmake")
+  include("/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/external/glfw-3.2.1/src/cmake_install.cmake")
 
 endif()
 

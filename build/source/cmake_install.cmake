@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source
+# Install script for directory: /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

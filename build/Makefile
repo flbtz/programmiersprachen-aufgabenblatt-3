@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2
+CMAKE_SOURCE_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/build
+CMAKE_BINARY_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/build/CMakeFiles /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -137,19 +137,6 @@ glfw/fast:
 .PHONY : glfw/fast
 
 #=============================================================================
-# Target rules for targets named tests
-
-# Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
-
-# fast build rule for target.
-tests/fast:
-	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
-.PHONY : tests/fast
-
-#=============================================================================
 # Target rules for targets named example
 
 # Build rule for target.
@@ -199,7 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... nanovg"
 	@echo "... glfw"
-	@echo "... tests"
 	@echo "... example"
 	@echo "... external/nanovg/src/nanovg.o"
 	@echo "... external/nanovg/src/nanovg.i"

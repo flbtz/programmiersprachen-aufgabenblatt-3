@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall
 
 C_DEFINES = -DGLEW_STATIC -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/include -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/build/external/glfw-3.2.1/src 
+C_INCLUDES = -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/glfw-3.2.1/include -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/glfw-3.2.1/src -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build/external/glfw-3.2.1/src 
 
