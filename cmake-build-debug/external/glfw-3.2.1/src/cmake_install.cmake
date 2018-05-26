@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src
+# Install script for directory: /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/glfw-3.2.1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

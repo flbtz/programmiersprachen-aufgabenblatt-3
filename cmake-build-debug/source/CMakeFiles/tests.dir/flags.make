@@ -7,11 +7,11 @@ C_FLAGS = -g
 
 C_DEFINES = -DGLEW_STATIC
 
-C_INCLUDES = -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/include -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/nanovg/src -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/catch-1.1 
+C_INCLUDES = -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/glfw-3.2.1/include -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/nanovg/src -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/catch-1.1 
 
 CXX_FLAGS = -std=c++14 -Wall -g  
 
 CXX_DEFINES = -DGLEW_STATIC
 
-CXX_INCLUDES = -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/include -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/nanovg/src -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/catch-1.1 
+CXX_INCLUDES = -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/glfw-3.2.1/include -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/nanovg/src -I/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/external/catch-1.1 
 

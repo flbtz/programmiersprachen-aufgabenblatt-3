@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2
+CMAKE_SOURCE_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include source/CMakeFiles/example.dir/depend.make
@@ -59,16 +59,16 @@ include source/CMakeFiles/example.dir/flags.make
 
 source/CMakeFiles/example.dir/window.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/window.cpp.o: ../source/window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/example.dir/window.cpp.o"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/window.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/example.dir/window.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/window.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/window.cpp
 
 source/CMakeFiles/example.dir/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/window.cpp.i"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.cpp > CMakeFiles/example.dir/window.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/window.cpp > CMakeFiles/example.dir/window.cpp.i
 
 source/CMakeFiles/example.dir/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/window.cpp.s"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.cpp -o CMakeFiles/example.dir/window.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/window.cpp -o CMakeFiles/example.dir/window.cpp.s
 
 source/CMakeFiles/example.dir/window.cpp.o.requires:
 
@@ -83,16 +83,16 @@ source/CMakeFiles/example.dir/window.cpp.o.provides.build: source/CMakeFiles/exa
 
 source/CMakeFiles/example.dir/glew.c.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/glew.c.o: ../source/glew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object source/CMakeFiles/example.dir/glew.c.o"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/example.dir/glew.c.o   -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object source/CMakeFiles/example.dir/glew.c.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/example.dir/glew.c.o   -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/glew.c
 
 source/CMakeFiles/example.dir/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/example.dir/glew.c.i"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/glew.c > CMakeFiles/example.dir/glew.c.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/glew.c > CMakeFiles/example.dir/glew.c.i
 
 source/CMakeFiles/example.dir/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/example.dir/glew.c.s"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/glew.c -o CMakeFiles/example.dir/glew.c.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/glew.c -o CMakeFiles/example.dir/glew.c.s
 
 source/CMakeFiles/example.dir/glew.c.o.requires:
 
@@ -107,16 +107,16 @@ source/CMakeFiles/example.dir/glew.c.o.provides.build: source/CMakeFiles/example
 
 source/CMakeFiles/example.dir/example.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/example.cpp.o: ../source/example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/example.dir/example.cpp.o"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/example.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/example.dir/example.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/example.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/example.cpp
 
 source/CMakeFiles/example.dir/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/example.cpp.i"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/example.cpp > CMakeFiles/example.dir/example.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/example.cpp > CMakeFiles/example.dir/example.cpp.i
 
 source/CMakeFiles/example.dir/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/example.cpp.s"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/example.cpp -o CMakeFiles/example.dir/example.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/example.cpp -o CMakeFiles/example.dir/example.cpp.s
 
 source/CMakeFiles/example.dir/example.cpp.o.requires:
 
@@ -131,16 +131,16 @@ source/CMakeFiles/example.dir/example.cpp.o.provides.build: source/CMakeFiles/ex
 
 source/CMakeFiles/example.dir/vec2.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/vec2.cpp.o: ../source/vec2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/example.dir/vec2.cpp.o"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/vec2.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/vec2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/example.dir/vec2.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/vec2.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/vec2.cpp
 
 source/CMakeFiles/example.dir/vec2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/vec2.cpp.i"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/vec2.cpp > CMakeFiles/example.dir/vec2.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/vec2.cpp > CMakeFiles/example.dir/vec2.cpp.i
 
 source/CMakeFiles/example.dir/vec2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/vec2.cpp.s"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/vec2.cpp -o CMakeFiles/example.dir/vec2.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/vec2.cpp -o CMakeFiles/example.dir/vec2.cpp.s
 
 source/CMakeFiles/example.dir/vec2.cpp.o.requires:
 
@@ -155,16 +155,16 @@ source/CMakeFiles/example.dir/vec2.cpp.o.provides.build: source/CMakeFiles/examp
 
 source/CMakeFiles/example.dir/mat2.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/mat2.cpp.o: ../source/mat2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/example.dir/mat2.cpp.o"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/mat2.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/mat2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/example.dir/mat2.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/mat2.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/mat2.cpp
 
 source/CMakeFiles/example.dir/mat2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/mat2.cpp.i"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/mat2.cpp > CMakeFiles/example.dir/mat2.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/mat2.cpp > CMakeFiles/example.dir/mat2.cpp.i
 
 source/CMakeFiles/example.dir/mat2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/mat2.cpp.s"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/mat2.cpp -o CMakeFiles/example.dir/mat2.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/mat2.cpp -o CMakeFiles/example.dir/mat2.cpp.s
 
 source/CMakeFiles/example.dir/mat2.cpp.o.requires:
 
@@ -179,16 +179,16 @@ source/CMakeFiles/example.dir/mat2.cpp.o.provides.build: source/CMakeFiles/examp
 
 source/CMakeFiles/example.dir/circle.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/circle.cpp.o: ../source/circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/example.dir/circle.cpp.o"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/circle.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/example.dir/circle.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/circle.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/circle.cpp
 
 source/CMakeFiles/example.dir/circle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/circle.cpp.i"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/circle.cpp > CMakeFiles/example.dir/circle.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/circle.cpp > CMakeFiles/example.dir/circle.cpp.i
 
 source/CMakeFiles/example.dir/circle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/circle.cpp.s"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/circle.cpp -o CMakeFiles/example.dir/circle.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/circle.cpp -o CMakeFiles/example.dir/circle.cpp.s
 
 source/CMakeFiles/example.dir/circle.cpp.o.requires:
 
@@ -203,16 +203,16 @@ source/CMakeFiles/example.dir/circle.cpp.o.provides.build: source/CMakeFiles/exa
 
 source/CMakeFiles/example.dir/rectangle.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/rectangle.cpp.o: ../source/rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/example.dir/rectangle.cpp.o"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/rectangle.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/example.dir/rectangle.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/rectangle.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/rectangle.cpp
 
 source/CMakeFiles/example.dir/rectangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/rectangle.cpp.i"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp > CMakeFiles/example.dir/rectangle.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/rectangle.cpp > CMakeFiles/example.dir/rectangle.cpp.i
 
 source/CMakeFiles/example.dir/rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/rectangle.cpp.s"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp -o CMakeFiles/example.dir/rectangle.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/rectangle.cpp -o CMakeFiles/example.dir/rectangle.cpp.s
 
 source/CMakeFiles/example.dir/rectangle.cpp.o.requires:
 
@@ -225,6 +225,30 @@ source/CMakeFiles/example.dir/rectangle.cpp.o.provides: source/CMakeFiles/exampl
 source/CMakeFiles/example.dir/rectangle.cpp.o.provides.build: source/CMakeFiles/example.dir/rectangle.cpp.o
 
 
+source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o: ../source/aufgabe_2-und_3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/aufgabe_2-und_3.cpp
+
+source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/aufgabe_2-und_3.cpp.i"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/aufgabe_2-und_3.cpp > CMakeFiles/example.dir/aufgabe_2-und_3.cpp.i
+
+source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/aufgabe_2-und_3.cpp.s"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source/aufgabe_2-und_3.cpp -o CMakeFiles/example.dir/aufgabe_2-und_3.cpp.s
+
+source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o.requires
+
+source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o.provides: source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o.provides.build
+.PHONY : source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o.provides
+
+source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o.provides.build: source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o
+
+
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/window.cpp.o" \
@@ -233,7 +257,8 @@ example_OBJECTS = \
 "CMakeFiles/example.dir/vec2.cpp.o" \
 "CMakeFiles/example.dir/mat2.cpp.o" \
 "CMakeFiles/example.dir/circle.cpp.o" \
-"CMakeFiles/example.dir/rectangle.cpp.o"
+"CMakeFiles/example.dir/rectangle.cpp.o" \
+"CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
@@ -245,12 +270,13 @@ source/example: source/CMakeFiles/example.dir/vec2.cpp.o
 source/example: source/CMakeFiles/example.dir/mat2.cpp.o
 source/example: source/CMakeFiles/example.dir/circle.cpp.o
 source/example: source/CMakeFiles/example.dir/rectangle.cpp.o
+source/example: source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o
 source/example: source/CMakeFiles/example.dir/build.make
 source/example: external/glfw-3.2.1/src/libglfw3.a
 source/example: libnanovg.a
 source/example: source/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable example"
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable example"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 source/CMakeFiles/example.dir/build: source/example
@@ -264,14 +290,15 @@ source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/vec2.cpp.o
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/mat2.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/circle.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/rectangle.cpp.o.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o.requires
 
 .PHONY : source/CMakeFiles/example.dir/requires
 
 source/CMakeFiles/example.dir/clean:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
 .PHONY : source/CMakeFiles/example.dir/clean
 
 source/CMakeFiles/example.dir/depend:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2 /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3 /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/source /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : source/CMakeFiles/example.dir/depend
 

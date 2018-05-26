@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2
+CMAKE_SOURCE_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source/CMakeFiles/progress.marks
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles 0
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/source/CMakeFiles/progress.marks
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/clean
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/CMakeFiles/tests.dir/rule:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/rule
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/rule
 .PHONY : source/CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ tests: source/CMakeFiles/tests.dir/rule
 
 # fast build rule for target.
 tests/fast:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
 # Convenience name for target.
 source/CMakeFiles/example.dir/rule:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/example.dir/rule
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/example.dir/rule
 .PHONY : source/CMakeFiles/example.dir/rule
 
 # Convenience name for target.
@@ -137,8 +137,35 @@ example: source/CMakeFiles/example.dir/rule
 
 # fast build rule for target.
 example/fast:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
 .PHONY : example/fast
+
+aufgabe_2-und_3.o: aufgabe_2-und_3.cpp.o
+
+.PHONY : aufgabe_2-und_3.o
+
+# target to build an object file
+aufgabe_2-und_3.cpp.o:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.o
+.PHONY : aufgabe_2-und_3.cpp.o
+
+aufgabe_2-und_3.i: aufgabe_2-und_3.cpp.i
+
+.PHONY : aufgabe_2-und_3.i
+
+# target to preprocess a source file
+aufgabe_2-und_3.cpp.i:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.i
+.PHONY : aufgabe_2-und_3.cpp.i
+
+aufgabe_2-und_3.s: aufgabe_2-und_3.cpp.s
+
+.PHONY : aufgabe_2-und_3.s
+
+# target to generate assembly for a file
+aufgabe_2-und_3.cpp.s:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2-und_3.cpp.s
+.PHONY : aufgabe_2-und_3.cpp.s
 
 circle.o: circle.cpp.o
 
@@ -146,8 +173,8 @@ circle.o: circle.cpp.o
 
 # target to build an object file
 circle.cpp.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.o
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.o
 .PHONY : circle.cpp.o
 
 circle.i: circle.cpp.i
@@ -156,8 +183,8 @@ circle.i: circle.cpp.i
 
 # target to preprocess a source file
 circle.cpp.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.i
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.i
 .PHONY : circle.cpp.i
 
 circle.s: circle.cpp.s
@@ -166,8 +193,8 @@ circle.s: circle.cpp.s
 
 # target to generate assembly for a file
 circle.cpp.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.s
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
 example.o: example.cpp.o
@@ -176,7 +203,7 @@ example.o: example.cpp.o
 
 # target to build an object file
 example.cpp.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.o
 .PHONY : example.cpp.o
 
 example.i: example.cpp.i
@@ -185,7 +212,7 @@ example.i: example.cpp.i
 
 # target to preprocess a source file
 example.cpp.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.i
 .PHONY : example.cpp.i
 
 example.s: example.cpp.s
@@ -194,7 +221,7 @@ example.s: example.cpp.s
 
 # target to generate assembly for a file
 example.cpp.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.s
 .PHONY : example.cpp.s
 
 glew.o: glew.c.o
@@ -203,8 +230,8 @@ glew.o: glew.c.o
 
 # target to build an object file
 glew.c.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.o
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.o
 .PHONY : glew.c.o
 
 glew.i: glew.c.i
@@ -213,8 +240,8 @@ glew.i: glew.c.i
 
 # target to preprocess a source file
 glew.c.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.i
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.i
 .PHONY : glew.c.i
 
 glew.s: glew.c.s
@@ -223,8 +250,8 @@ glew.s: glew.c.s
 
 # target to generate assembly for a file
 glew.c.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.s
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.s
 .PHONY : glew.c.s
 
 mat2.o: mat2.cpp.o
@@ -233,8 +260,8 @@ mat2.o: mat2.cpp.o
 
 # target to build an object file
 mat2.cpp.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.o
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.o
 .PHONY : mat2.cpp.o
 
 mat2.i: mat2.cpp.i
@@ -243,8 +270,8 @@ mat2.i: mat2.cpp.i
 
 # target to preprocess a source file
 mat2.cpp.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.i
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.i
 .PHONY : mat2.cpp.i
 
 mat2.s: mat2.cpp.s
@@ -253,8 +280,8 @@ mat2.s: mat2.cpp.s
 
 # target to generate assembly for a file
 mat2.cpp.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.s
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.s
 .PHONY : mat2.cpp.s
 
 rectangle.o: rectangle.cpp.o
@@ -263,8 +290,8 @@ rectangle.o: rectangle.cpp.o
 
 # target to build an object file
 rectangle.cpp.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.o
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.o
 .PHONY : rectangle.cpp.o
 
 rectangle.i: rectangle.cpp.i
@@ -273,8 +300,8 @@ rectangle.i: rectangle.cpp.i
 
 # target to preprocess a source file
 rectangle.cpp.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.i
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.i
 .PHONY : rectangle.cpp.i
 
 rectangle.s: rectangle.cpp.s
@@ -283,8 +310,8 @@ rectangle.s: rectangle.cpp.s
 
 # target to generate assembly for a file
 rectangle.cpp.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.s
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.s
 .PHONY : rectangle.cpp.s
 
 tests.o: tests.cpp.o
@@ -293,7 +320,7 @@ tests.o: tests.cpp.o
 
 # target to build an object file
 tests.cpp.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.o
 .PHONY : tests.cpp.o
 
 tests.i: tests.cpp.i
@@ -302,7 +329,7 @@ tests.i: tests.cpp.i
 
 # target to preprocess a source file
 tests.cpp.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.i
 .PHONY : tests.cpp.i
 
 tests.s: tests.cpp.s
@@ -311,7 +338,7 @@ tests.s: tests.cpp.s
 
 # target to generate assembly for a file
 tests.cpp.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.s
 .PHONY : tests.cpp.s
 
 vec2.o: vec2.cpp.o
@@ -320,8 +347,8 @@ vec2.o: vec2.cpp.o
 
 # target to build an object file
 vec2.cpp.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.o
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.o
 .PHONY : vec2.cpp.o
 
 vec2.i: vec2.cpp.i
@@ -330,8 +357,8 @@ vec2.i: vec2.cpp.i
 
 # target to preprocess a source file
 vec2.cpp.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.i
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.i
 .PHONY : vec2.cpp.i
 
 vec2.s: vec2.cpp.s
@@ -340,8 +367,8 @@ vec2.s: vec2.cpp.s
 
 # target to generate assembly for a file
 vec2.cpp.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.s
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.s
 .PHONY : vec2.cpp.s
 
 window.o: window.cpp.o
@@ -350,8 +377,8 @@ window.o: window.cpp.o
 
 # target to build an object file
 window.cpp.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.o
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.o
 .PHONY : window.cpp.o
 
 window.i: window.cpp.i
@@ -360,8 +387,8 @@ window.i: window.cpp.i
 
 # target to preprocess a source file
 window.cpp.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.i
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.i
 .PHONY : window.cpp.i
 
 window.s: window.cpp.s
@@ -370,8 +397,8 @@ window.s: window.cpp.s
 
 # target to generate assembly for a file
 window.cpp.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.s
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.s
 .PHONY : window.cpp.s
 
 # Help Target
@@ -384,6 +411,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... tests"
 	@echo "... example"
+	@echo "... aufgabe_2-und_3.o"
+	@echo "... aufgabe_2-und_3.i"
+	@echo "... aufgabe_2-und_3.s"
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"
@@ -419,6 +449,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

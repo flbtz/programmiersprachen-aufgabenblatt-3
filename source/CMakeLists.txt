@@ -8,6 +8,7 @@ add_executable(example
         mat2.cpp
         circle.cpp
         rectangle.cpp
+        aufgabe_2-und_3.cpp
         )
 target_link_libraries(example
         glfw
