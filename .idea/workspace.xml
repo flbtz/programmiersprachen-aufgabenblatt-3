@@ -15,185 +15,10 @@
   <component name="ChangeListManager">
     <list default="true" id="94c33424-3925-4e14-a637-7d989fc1d629" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/nanovg.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/context.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/context.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/input.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/input.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/monitor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/monitor.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/vulkan.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/vulkan.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/window.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/window.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/libglfw3.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/external/glfw-3.2.1/src/libglfw3.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libnanovg.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/libnanovg.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/C.includecache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/circle.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/example.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/glew.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/mat2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/rectangle.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/vec2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/window.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/circle.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/glew.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/mat2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/rectangle.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/tests.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/vec2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/window.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/aufgabe_2_und_3.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/example.dir/aufgabe_2_und_3.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/source/example" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/source/tests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nanovg.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nanovg.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nanovg.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nanovg.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nanovg.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nanovg.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nanovg.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nanovg.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/blatt2.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/GLFW.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/cocoa_init.m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/cocoa_time.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/cocoa_window.m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/context.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/init.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/input.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/monitor.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/nsgl_context.m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/posix_tls.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/vulkan.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/window.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/glfw3.pc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/glfw3Config.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/glfw3ConfigVersion.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/glfw_config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/external/glfw-3.2.1/src/libglfw3.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libnanovg.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/circle.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/example.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/glew.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/mat2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/rectangle.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/vec2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/example.dir/window.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/aufgabe_2-und_3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/aufgabe_2_und_3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/aufgabe_2_und_3.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -218,8 +43,8 @@
       <file leaf-file-name="aufgabe_2_und_3.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/aufgabe_2_und_3.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -236,8 +61,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/source/aufgabe_2-und_3.cpp" />
-        <option value="$PROJECT_DIR$/source/aufgabe_2_und_3.cpp" />
         <option value="$PROJECT_DIR$/source/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/source/aufgabe_2_und_3.cpp" />
       </list>
     </option>
   </component>
@@ -302,10 +127,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.example">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="blatt2" RUN_TARGET_NAME="example" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blatt2" TARGET_NAME="example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="blatt2" RUN_TARGET_NAME="example" />
-    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blatt2" TARGET_NAME="glfw" CONFIG_NAME="Debug" />
-    <configuration name="nanovg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blatt2" TARGET_NAME="nanovg" CONFIG_NAME="Debug" />
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blatt2" TARGET_NAME="glfw" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="blatt2" RUN_TARGET_NAME="example" />
+    <configuration name="nanovg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blatt2" TARGET_NAME="nanovg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="blatt2" RUN_TARGET_NAME="example" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.nanovg" />
@@ -324,12 +149,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527327953899</updated>
       <workItem from="1527327955320" duration="754000" />
-      <workItem from="1527328954120" duration="271000" />
+      <workItem from="1527328954120" duration="1024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1025000" />
+    <option name="totallyTimeSpent" value="1778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1260" height="772" extended-state="0" />
@@ -387,8 +212,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/aufgabe_2_und_3.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
