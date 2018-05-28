@@ -21,5 +21,22 @@ add_executable(aufgabe_7
         )
 
 add_executable(aufgabe_9
-aufgabe_9.cpp
-)
+        aufgabe_9.cpp
+        )
+
+add_executable(aufgabe_11
+
+        circle.cpp
+        vec2.cpp
+        catch.hpp
+        aufgabe_11.cpp
+        )
+
+add_executable(aufgabe_12
+
+
+        vec2.cpp
+        catch.hpp
+        aufgabe_12.cpp
+
+        )
