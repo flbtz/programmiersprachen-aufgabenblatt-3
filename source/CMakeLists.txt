@@ -19,3 +19,7 @@ add_executable(aufgabe_7
         vec2.cpp
         aufgabe_7.cpp
         )
+
+add_executable(aufgabe_9
+aufgabe_9.cpp
+)

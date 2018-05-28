@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/Flo/Documents/Studium/Programmiersprachen/programmiers
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.11.0/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/Cellar/cmake/3.11.0/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,21 @@ preinstall/fast:
 depend:
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe_9.dir/rule:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_9.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_9.dir/rule
+
+# Convenience name for target.
+aufgabe_9: source/CMakeFiles/aufgabe_9.dir/rule
+
+.PHONY : aufgabe_9
+
+# fast build rule for target.
+aufgabe_9/fast:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_9.dir/build.make source/CMakeFiles/aufgabe_9.dir/build
+.PHONY : aufgabe_9/fast
 
 # Convenience name for target.
 source/CMakeFiles/aufgabe_7.dir/rule:
@@ -236,6 +251,33 @@ aufgabe_7.cpp.s:
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_7.dir/build.make source/CMakeFiles/aufgabe_7.dir/aufgabe_7.cpp.s
 .PHONY : aufgabe_7.cpp.s
 
+aufgabe_9.o: aufgabe_9.cpp.o
+
+.PHONY : aufgabe_9.o
+
+# target to build an object file
+aufgabe_9.cpp.o:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_9.dir/build.make source/CMakeFiles/aufgabe_9.dir/aufgabe_9.cpp.o
+.PHONY : aufgabe_9.cpp.o
+
+aufgabe_9.i: aufgabe_9.cpp.i
+
+.PHONY : aufgabe_9.i
+
+# target to preprocess a source file
+aufgabe_9.cpp.i:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_9.dir/build.make source/CMakeFiles/aufgabe_9.dir/aufgabe_9.cpp.i
+.PHONY : aufgabe_9.cpp.i
+
+aufgabe_9.s: aufgabe_9.cpp.s
+
+.PHONY : aufgabe_9.s
+
+# target to generate assembly for a file
+aufgabe_9.cpp.s:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_9.dir/build.make source/CMakeFiles/aufgabe_9.dir/aufgabe_9.cpp.s
+.PHONY : aufgabe_9.cpp.s
+
 circle.o: circle.cpp.o
 
 .PHONY : circle.o
@@ -308,9 +350,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... aufgabe_9"
 	@echo "... aufgabe_7"
+	@echo "... rebuild_cache"
 	@echo "... aufgabe_6"
 	@echo "... aufgabe_2_und_3"
 	@echo "... aufgabe_2_und_3.o"
@@ -322,6 +365,9 @@ help:
 	@echo "... aufgabe_7.o"
 	@echo "... aufgabe_7.i"
 	@echo "... aufgabe_7.s"
+	@echo "... aufgabe_9.o"
+	@echo "... aufgabe_9.i"
+	@echo "... aufgabe_9.s"
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"
