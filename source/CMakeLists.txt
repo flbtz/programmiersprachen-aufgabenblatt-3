@@ -48,3 +48,7 @@ add_executable(aufgabe_13
         catch.hpp
         aufgabe_13.cpp
         )
+
+add_executable(aufgabe_14
+        aufgabe_14.cpp
+        circle.cpp)

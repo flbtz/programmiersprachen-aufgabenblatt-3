@@ -202,6 +202,19 @@ aufgabe_6/fast:
 .PHONY : aufgabe_6/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe_14
+
+# Build rule for target.
+aufgabe_14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe_14
+.PHONY : aufgabe_14
+
+# fast build rule for target.
+aufgabe_14/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe_14.dir/build.make source/CMakeFiles/aufgabe_14.dir/build
+.PHONY : aufgabe_14/fast
+
+#=============================================================================
 # Target rules for targets named aufgabe_12
 
 # Build rule for target.
@@ -269,6 +282,7 @@ help:
 	@echo "... aufgabe_7"
 	@echo "... aufgabe_11"
 	@echo "... aufgabe_6"
+	@echo "... aufgabe_14"
 	@echo "... aufgabe_12"
 	@echo "... aufgabe_2_und_3"
 	@echo "... external/nanovg/src/nanovg.o"
