@@ -40,3 +40,11 @@ add_executable(aufgabe_12
         aufgabe_12.cpp
 
         )
+
+add_executable(aufgabe_13
+
+        circle.cpp
+        vec2.cpp
+        catch.hpp
+        aufgabe_13.cpp
+        )
