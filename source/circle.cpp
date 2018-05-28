@@ -2,22 +2,27 @@
 #define CIRCLE_CPP
 #define _USE_MATH_DEFINES
 
-#include <cmath>
-#include"vec2.hpp"
+#include <math.h>
+#include "vec2.hpp"
 #include "circle.hpp"
 #include "color.hpp"
+#include <string>
+#include <ostream>
+#include <sstream>
 
 
 Circle::Circle():
         radius_{0.0f},
         mp_{0.0f,0.0f},
-        color_{0.0f}
+        color_{0.0f},
+        name_{"default_Circle_01"}
 {};
 
-Circle::Circle (float radius, Vec2 const & mp, Color const& color):
+Circle::Circle (float radius, Vec2 const & mp, Color const& color,std::string const& name):
         radius_{radius},
         mp_{mp},
-        color_{color}
+        color_{color},
+        name_{name}
 {};
 
 float Circle::get_radius() const{
@@ -32,34 +37,15 @@ Color Circle::get_color() const{
     return color_;
 }
 
+std::string Circle::get_name() const{
+    return name_;
+}
+
 float Circle::circumference() const{
     return 2*M_PI*get_radius();
 }
 
-void Circle::draw(Window const& window) {
-    Vec2 start{};
-    Vec2 end{};
-    Color c{0.0f};
-    c = get_color();
 
-    for (int i = 0; i<=360; i++){
-        start = {(float)sin((2*M_PI*i)/360)*get_radius()+mp_.x,(float)cos((2*M_PI*i)/360)*get_radius()+mp_.y};
-        end = {(float)sin(((i+1)*2*M_PI)/360)*get_radius()+mp_.x,(float)cos(((i+1)*2*M_PI)/360)*get_radius()+mp_.y};
-        window.draw_line(start.x,start.y,end.x,end.y,c.r_,c.g_,c.b_);
-    }
-}
-
-void Circle::draw(Window const& window, float r, float g, float b) {
-    Vec2 start{};
-    Vec2 end{};
-    Color c{r,g,b};
-
-    for (int i = 0; i<=360; i++){
-        start = {(float)sin((2*M_PI*i)/360)*get_radius()+mp_.x,(float)cos((2*M_PI*i)/360)*get_radius()+mp_.y};
-        end = {(float)sin(((i+1)*2*M_PI)/360)*get_radius()+mp_.x,(float)cos(((i+1)*2*M_PI)/360)*get_radius()+mp_.y};
-        window.draw_line(start.x,start.y,end.x,end.y,c.r_,c.g_,c.b_);
-    }
-}
 
 bool Circle::is_inside(Vec2 const& v){
     Vec2 dif = v-get_mp();
@@ -69,7 +55,29 @@ bool Circle::is_inside(Vec2 const& v){
     else{
         return false;
     }
+}
 
-};
+std::ostream& Circle::print(std::ostream& outstream) const
+{
+    outstream << get_radius() <<";" <<get_mp().x <<";" <<get_mp().y <<";" << get_color().r_ <<";" << get_color().g_<<";" <<get_color().b_ <<";" <<get_name();
+    return outstream;
+}
+
+//std::ostream operator<<(std::ostream& outstream, Circle const& c1){
+//return c1.print(outstream);
+//}
+
+bool operator <(Circle const& c1, Circle const& c2){
+    return(c1.get_radius() < c2.get_radius());
+}
+
+
+bool operator >(Circle const& c1, Circle const& c2){
+    return(c1.get_radius() > c2.get_radius());
+}
+
+bool operator == (Circle const& c1, Circle const& c2){
+    return(c1.get_radius() == c2.get_radius());
+}
 
 #endif

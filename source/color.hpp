@@ -18,7 +18,7 @@ struct Color
             r_= 0.0f;
             g_= 0.0f;
             b_= 0.0f;
-            std::cout << "Farbe existiert nicht, Standardfarbe ist schwarz.";
+            std::cout << "this color doesn't exist, default color is black.";
         }
     };
 
@@ -33,7 +33,7 @@ struct Color
             r_=0.0f;
             g_=0.0f;
             b_=0.0f;
-            std::cout << "Farbe existiert nicht, Standardfarbe ist schwarz.";
+            std::cout << "this color doesn't exist, default color is black.";
         }
     };
 

@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-source/CMakeFiles/example.dir/rule:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/example.dir/rule
-.PHONY : source/CMakeFiles/example.dir/rule
+source/CMakeFiles/aufgabe_2_und_3.dir/rule:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_2_und_3.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_2_und_3.dir/rule
 
 # Convenience name for target.
-example: source/CMakeFiles/example.dir/rule
+aufgabe_2_und_3: source/CMakeFiles/aufgabe_2_und_3.dir/rule
 
-.PHONY : example
+.PHONY : aufgabe_2_und_3
 
 # fast build rule for target.
-example/fast:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
-.PHONY : example/fast
+aufgabe_2_und_3/fast:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/build
+.PHONY : aufgabe_2_und_3/fast
 
 aufgabe_2_und_3.o: aufgabe_2_und_3.cpp.o
 
@@ -131,7 +131,7 @@ aufgabe_2_und_3.o: aufgabe_2_und_3.cpp.o
 
 # target to build an object file
 aufgabe_2_und_3.cpp.o:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2_und_3.cpp.o
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o
 .PHONY : aufgabe_2_und_3.cpp.o
 
 aufgabe_2_und_3.i: aufgabe_2_und_3.cpp.i
@@ -140,7 +140,7 @@ aufgabe_2_und_3.i: aufgabe_2_und_3.cpp.i
 
 # target to preprocess a source file
 aufgabe_2_und_3.cpp.i:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2_und_3.cpp.i
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.i
 .PHONY : aufgabe_2_und_3.cpp.i
 
 aufgabe_2_und_3.s: aufgabe_2_und_3.cpp.s
@@ -149,8 +149,62 @@ aufgabe_2_und_3.s: aufgabe_2_und_3.cpp.s
 
 # target to generate assembly for a file
 aufgabe_2_und_3.cpp.s:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/aufgabe_2_und_3.cpp.s
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.s
 .PHONY : aufgabe_2_und_3.cpp.s
+
+circle.o: circle.cpp.o
+
+.PHONY : circle.o
+
+# target to build an object file
+circle.cpp.o:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.o
+.PHONY : circle.cpp.o
+
+circle.i: circle.cpp.i
+
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/circle.cpp.s
+.PHONY : circle.cpp.s
+
+vec2.o: vec2.cpp.o
+
+.PHONY : vec2.o
+
+# target to build an object file
+vec2.cpp.o:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.o
+.PHONY : vec2.cpp.o
+
+vec2.i: vec2.cpp.i
+
+.PHONY : vec2.i
+
+# target to preprocess a source file
+vec2.cpp.i:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.i
+.PHONY : vec2.cpp.i
+
+vec2.s: vec2.cpp.s
+
+.PHONY : vec2.s
+
+# target to generate assembly for a file
+vec2.cpp.s:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe_2_und_3.dir/build.make source/CMakeFiles/aufgabe_2_und_3.dir/vec2.cpp.s
+.PHONY : vec2.cpp.s
 
 # Help Target
 help:
@@ -160,10 +214,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... example"
+	@echo "... aufgabe_2_und_3"
 	@echo "... aufgabe_2_und_3.o"
 	@echo "... aufgabe_2_und_3.i"
 	@echo "... aufgabe_2_und_3.s"
+	@echo "... circle.o"
+	@echo "... circle.i"
+	@echo "... circle.s"
+	@echo "... vec2.o"
+	@echo "... vec2.i"
+	@echo "... vec2.s"
 .PHONY : help
 
 
